@@ -1,0 +1,27 @@
+{
+  "name": "self-hosted-cron-visualizer",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Self-hosted cron expression visualizer: human-readable descriptions + next run times in any timezone. 100% client-side.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && node scripts/check-external-refs.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cron-parser": "5.10.1",
+    "cronstrue": "3.29.0",
+    "luxon": "3.7.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/luxon": "3.7.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "~5.9.3",
+    "vite": "8.3.2"
+  }
+}
