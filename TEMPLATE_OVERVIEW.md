@@ -16,7 +16,7 @@ Content-Security-Policy (`connect-src 'self'`) enforces it.
 - Shareable `#/expr=…` URLs (fragment never sent to the server), optionally with a frozen `now=` for deterministic results
 - Copy buttons for the expression and the run list; dark/light/auto theme; offline after first load
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.app/new?github_url=https://github.com/lNamelessl/self-hosted-cron-visualizer)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/cron-visualizer)
 
 The template provisions two services. **visualizer** is the app itself: a static React
 (Vite) bundle served by Caddy from a digest-pinned Alpine image — stateless, zero
